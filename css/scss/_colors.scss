@@ -1,0 +1,12 @@
+$base-link-color: #00F;
+
+a {
+    color: $base-link-color;
+}
+
+a:visited {
+    color: darken($base-link-color, 20%);
+} figcaption {
+    background-color: transparentize(#fff, 0.5)
+}
+
