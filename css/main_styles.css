@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+a {
+  color: #00F;
+}
+
+a:visited {
+  color: #000099;
+}
+
+figcaption {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  float: none;
+  margin: 0 auto;
+  max-width: 1010px;
+  width: 100%;
+}
+
+.row {
+  float: left;
+  padding: 1% 1%;
+  width: 97.96%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.row img {
+  width: 100%;
+}
+
+.col-1 {
+  float: left;
+  padding: 1% 1%;
+  width: 6.33%;
+  position: relative;
+  display: inline-block;
+}
+.col-1 img {
+  width: 100%;
+}
+
+.col-2 {
+  float: left;
+  padding: 1% 1%;
+  width: 14.66%;
+  position: relative;
+  display: inline-block;
+}
+.col-2 img {
+  width: 100%;
+}
+
+.col-3 {
+  float: left;
+  padding: 1% 1%;
+  width: 22.99%;
+  position: relative;
+  display: inline-block;
+}
+.col-3 img {
+  width: 100%;
+}
+
+.col-4 {
+  float: left;
+  padding: 1% 1%;
+  width: 31.32%;
+  position: relative;
+  display: inline-block;
+}
+.col-4 img {
+  width: 100%;
+}
+
+.col-5 {
+  float: left;
+  padding: 1% 1%;
+  width: 39.65%;
+  position: relative;
+  display: inline-block;
+}
+.col-5 img {
+  width: 100%;
+}
+
+.col-6 {
+  float: left;
+  padding: 1% 1%;
+  width: 47.98%;
+  position: relative;
+  display: inline-block;
+}
+.col-6 img {
+  width: 100%;
+}
+
+.col-7 {
+  float: left;
+  padding: 1% 1%;
+  width: 56.31%;
+  position: relative;
+  display: inline-block;
+}
+.col-7 img {
+  width: 100%;
+}
+
+.col-8 {
+  float: left;
+  padding: 1% 1%;
+  width: 64.64%;
+  position: relative;
+  display: inline-block;
+}
+.col-8 img {
+  width: 100%;
+}
+
+.col-9 {
+  float: left;
+  padding: 1% 1%;
+  width: 72.97%;
+  position: relative;
+  display: inline-block;
+}
+.col-9 img {
+  width: 100%;
+}
+
+.col-10 {
+  float: left;
+  padding: 1% 1%;
+  width: 81.3%;
+  position: relative;
+  display: inline-block;
+}
+.col-10 img {
+  width: 100%;
+}
+
+.col-11 {
+  float: left;
+  padding: 1% 1%;
+  width: 89.63%;
+  position: relative;
+  display: inline-block;
+}
+.col-11 img {
+  width: 100%;
+}
+
+.col-12 {
+  float: left;
+  padding: 1% 1%;
+  width: 97.96%;
+  position: relative;
+  display: inline-block;
+}
+.col-12 img {
+  width: 100%;
+}
+
+.inline-ul {
+  padding-left: 0;
+}
+
+.inline-ul li {
+  display: inline-block;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: purple;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-white {
+  background-color: white;
+  color: #0e91ce;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #0e91ce;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  filter: brightness(90%);
+}
+
+a:active,
+button:active {
+  filter: brightness(80%);
+}
+
+@media only screen and (max-width: 768px) {
+  .col-1 {
+    float: left;
+    padding: 1% 1%;
+    width: 47.98%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-1 img {
+    width: 100%;
+  }
+
+  .col-2 {
+    float: left;
+    padding: 1% 1%;
+    width: 47.98%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-2 img {
+    width: 100%;
+  }
+
+  .col-3 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-3 img {
+    width: 100%;
+  }
+  .col-3 img {
+    width: 33%;
+    margin-left: 33%;
+  }
+
+  .col-4 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-4 img {
+    width: 100%;
+  }
+
+  .col-5 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-5 img {
+    width: 100%;
+  }
+
+  .col-6 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-6 img {
+    width: 100%;
+  }
+
+  .col-7 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-7 img {
+    width: 100%;
+  }
+
+  .col-8 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-8 img {
+    width: 100%;
+  }
+
+  .col-9 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-9 img {
+    width: 100%;
+  }
+
+  .col-10 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-10 img {
+    width: 100%;
+  }
+
+  .col-11 {
+    float: left;
+    padding: 1% 1%;
+    width: 97.96%;
+    position: relative;
+    display: inline-block;
+  }
+  .col-11 img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main_styles.css.map */

@@ -1,0 +1,141 @@
+nav {
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgb(219, 217, 217);;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav .logo i {
+  font-size: 40px;
+}
+
+nav .logo hr {
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav .logo img {
+  width: 110px;
+  margin-bottom: 0;
+}
+
+nav form {
+  margin: auto;
+}
+
+nav form input {
+  width: 300px;
+  height: 20px;
+  line-height: 20px;
+  padding: 2.5px 5px;
+  border-radius: 3px;
+  border: solid 1px rgb(167, 165, 165);
+  outline: none;
+}
+
+nav .login-links {
+  margin: auto 0;
+}
+
+.header .header-left .img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .header-right .title > * {
+  margin-right: 10px;
+}
+
+.header .header-right .title > i {
+    font-size: 20px;
+    color: #0e91ce;
+}
+.header .header-right .title > h3 {
+  display: inline-block;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.header .header-right .inline-ul {
+  font-size: 18px;
+  margin-top: 0;
+}
+.header .header-right .inline-ul li{
+  padding-right: 20px;
+}
+
+.header .header-right .info > h4,
+.header .header-right .info > p {
+  margin: 0;
+}
+
+.content img {
+  width: 100%;
+  height: 220px;
+  background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
+
+
+.stories {
+  width: 100%;
+}
+
+.stories .inline-ul li {
+  width: 80px;
+  padding-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.content-navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-navbar button {
+  color: black;
+}
+
+.content-navbar .selected {
+  border-radius: 0;
+  border-top: solid 2px #0e91ce;
+}
+
+@media only screen and (max-width: 768px) {
+  nav form input {
+    display: none;
+  }
+
+  .content img {
+    height: auto;
+  }
+}
